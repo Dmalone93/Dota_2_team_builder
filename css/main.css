@@ -1,0 +1,146 @@
+body, html {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  background-color: #404040;
+  height: 100%;
+  background-image:
+      url("https://images.wallpaperscraft.com/image/dota_2_game_logo_background_92935_1680x1050.jpg");
+  background-size: cover;
+}
+
+.bg {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  color: white;
+  border-spacing: 20px;
+  font-size: 10px;
+  padding: 20px;
+  background-image: url("https://wallimpex.com/data/out/372/blood-red-wallpaper-7462047.png");
+  border-radius: 3px;
+  margin: 30px;
+
+}
+
+.background {
+  margin: 50px;
+}
+
+.form-container {
+  display: flex;
+  position: center;
+}
+
+
+#form-wrapper {
+  position: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+label {
+  display:flex;
+  margin: 0.4em 0;
+  text-align: center;
+}
+
+button, input[type="submit"] {
+
+}
+
+#character-list{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 30px;
+  font-size: 20px;
+  background-image: url("https://wallimpex.com/data/out/372/blood-red-wallpaper-7462047.png");
+  border-radius: 2px;
+  text-align: center;
+  margin: 30px;
+
+}
+
+ul {
+  padding-left: 30px;
+  width: 225px;
+  border: 0.5px solid white;
+  padding: 25px;
+  margin: 25px;
+  background-color: #006622;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+div.team-dire ul {
+  background-color: #e90c0c;
+}
+
+div.team-radient ul {
+  background-color: #006622;
+}
+
+p {
+  visibility: collapse;
+}
+
+.form-item {
+  font-size: 20px;
+
+}
+
+button {
+background-color: #a22e2e;
+font-size: 16px;
+margin-top: 10px;
+color: white;
+border-radius: 5px;
+width  : 176px;
+margin-left: 50px;
+}
+
+button.btn {
+background-color: #555555;
+font-size: 16px;
+margin-top: 10px;
+margin-left: 50px;
+color: white;
+border-radius: 5px;
+width  : 176px;
+}
+
+select {
+  background: transparent;
+ font-size: 14px;
+ height: 29px;
+ padding: 5px;
+ width: 220px;
+ color: white;
+ margin-right: 20px
+}
+
+input {
+  text-align: center;
+  position: relative;
+  background: transparent;
+  width  : 220px;
+  height : 23px;
+  margin-right: 20px;
+  color: white;
+  border-radius: 5px
+
+}
